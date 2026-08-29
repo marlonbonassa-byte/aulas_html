@@ -43,6 +43,78 @@
       <br />
       <br />
 
+      <span>Estilo Musical:</span>
+      <input
+        type="checkbox"
+        name="estiloMusical"
+        id="estiloMusicalpop"
+        value="Pop"
+      />
+      <label for="estiloMusicalPop">Pop</label>
+
+      <input
+        type="checkbox"
+        name="estiloMusical"
+        id="estiloMusicalRock"
+        value="Rock"
+      />
+      <label for="estiloMusicalRock">Rock</label>
+
+      <input
+        type="checkbox"
+        name="estiloMusical"
+        id="estiloMusicalGospel"
+        value="Gospel"
+      />
+      <label for="estiloMusicalGospel">Gospel</label>
+
+      <input
+        type="checkbox"
+        name="estiloMusical"
+        id="estiloMusicalSamba"
+        value="Samba"
+      />
+      <label for="estiloMusicalSamba">Samba</label>
+
+      <br />
+      <br />
+
+      <label for="descricaoid">descrição:</label>
+      <textarea
+        name="descricao"
+        id="descricaoId"
+        placeholder="digite uma descrição"
+      ></textarea>
+
+      <br />
+      <br />
+
+      <label for="">selecione um Estado</label>
+      <select name="estados" id="estadosId">
+        <option value="">selecione um estado</option>
+        <option value="SP">São Paulo</option>
+        <option value="PR">Paraná</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="ES">Espirito Santo</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="MS">Mato Grosso do Sul</option>
+      </select>
+
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>Dados pessoais</legend>
+
+        <label for="nomeCompletoID">Nome completo:</label>
+        <input type="text" name="nomeCompleto" id="nomeCompletoId" />
+
+        <label for="dataNascimentoId">Data nascimento:</label>
+        <input type="date" name="dataNascimento" id="dataNascimentoId" />
+      </fieldset>
+
       <button type="submit">Enviar</button>
     </form>
   </body>
